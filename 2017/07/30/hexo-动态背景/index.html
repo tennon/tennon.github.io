@@ -100,7 +100,7 @@
 <meta property="og:site_name" content="Xujian&#39;s Blog">
 <meta property="og:description" content="在网上有很多教程，但在使用的过程中发现教程都有缺陷，对于非专业人员来说并不能很好的使用。于是就打算自己写一下，其实蛮简单的。 修改主题配置文件如果不想自定义设置下一个步骤的配置项，只需要做这一步操作文件地址：blog/theme/next/_config.yml将文件中的canvas_nest: false为canvas_nest: true即可。 修改_layout.swig文件文件地址：blo">
 <meta property="og:image" content="http://i4.eiimg.com/596710/1138dabe2c532c14.png">
-<meta property="og:updated_time" content="2017-07-30T14:05:11.203Z">
+<meta property="og:updated_time" content="2017-07-30T14:13:46.314Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo的next主题如何添加动态背景">
 <meta name="twitter:description" content="在网上有很多教程，但在使用的过程中发现教程都有缺陷，对于非专业人员来说并不能很好的使用。于是就打算自己写一下，其实蛮简单的。 修改主题配置文件如果不想自定义设置下一个步骤的配置项，只需要做这一步操作文件地址：blog/theme/next/_config.yml将文件中的canvas_nest: false为canvas_nest: true即可。 修改_layout.swig文件文件地址：blo">
@@ -324,7 +324,7 @@
       
         <p>在网上有很多教程，但在使用的过程中发现教程都有缺陷，对于非专业人员来说并不能很好的使用。于是就打算自己写一下，其实蛮简单的。</p>
 <h1 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h1><p><strong>如果不想自定义设置下一个步骤的配置项，只需要做这一步操作</strong><br>文件地址：blog/theme/next/_config.yml<br>将文件中的canvas_nest: false为canvas_nest: true即可。</p>
-<h1 id="修改-layout-swig文件"><a href="#修改-layout-swig文件" class="headerlink" title="修改_layout.swig文件"></a>修改_layout.swig文件</h1><p>文件地址：blog/themes/next/layout/_layout.swig<br>在 &lt; /body&gt;之前添加代码(注意不要放在&lt; /head&gt;的后面)：<br></p>
+<h1 id="修改-layout-swig文件"><a href="#修改-layout-swig文件" class="headerlink" title="修改_layout.swig文件"></a>修改_layout.swig文件</h1><p>文件地址：blog/themes/next/layout/_layout.swig<br>在 &lt; /body&gt;之前添加代码(注意不要放在&lt; /head&gt;的后面)：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% if theme.canvas_nest %&#125;</div><div class="line">  &lt;script type=&quot;text/javascript&quot; color=&quot;0,0,0&quot; opacity=&apos;0.5&apos; zIndex=&quot;-1&quot; count=&quot;150&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</div><div class="line">&#123;% endif %&#125;</div></pre></td></tr></table></figure></p>
 <p>这些代码的输入有格式要求，具体如图<img src="http://i4.eiimg.com/596710/1138dabe2c532c14.png" alt="1"><br>配置项说明<br>color ：线条颜色, 默认: ‘0,0,0’；三个数字分别为(R,G,B)<br>opacity: 线条透明度（0~1）, 默认: 0.5<br>count: 线条的总数量, 默认: 150<br>zIndex: 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1<br><strong>配置项可以根据自身喜好自由设置</strong></p>
 
       
