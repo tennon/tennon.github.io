@@ -1,0 +1,779 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="产品," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="写在前面：作为一个刚入门的学生，产品的有关思维还是十分稚嫩，许多想法也是不切实际的。但是，有输出有思考才有可能蜕变。这也是我第一次做产品体验报告，至于文章的内容，还是希望和大家一起多多交流分享。  (一)    产品概述(1)    体验环境1.    所用机型iPhone6 2.    机型系统iOS 10.3.3 3.    产品版本2.8.0 4.    体验时间2017.7.29—201">
+<meta name="keywords" content="产品">
+<meta property="og:type" content="article">
+<meta property="og:title" content="得到App产品体验报告">
+<meta property="og:url" content="http://yoursite.com/2017/08/03/得到产品体验报告/index.html">
+<meta property="og:site_name" content="Xujian&#39;s Blog">
+<meta property="og:description" content="写在前面：作为一个刚入门的学生，产品的有关思维还是十分稚嫩，许多想法也是不切实际的。但是，有输出有思考才有可能蜕变。这也是我第一次做产品体验报告，至于文章的内容，还是希望和大家一起多多交流分享。  (一)    产品概述(1)    体验环境1.    所用机型iPhone6 2.    机型系统iOS 10.3.3 3.    产品版本2.8.0 4.    体验时间2017.7.29—201">
+<meta property="og:image" content="http://i1.bvimg.com/596710/2b5afb130814da52.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/705bbf1435d49fc3.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/e85571318dc57663.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/0cd068ac9cbc6417.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/85fb07beeeef0ef6.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/e6cd112fa985ff87.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/00f47155ac291f52.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/39bc0fe393ed0467.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/cc3bb95745a78c5e.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/db09bc4148728010.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/381d278431833c38.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/5c34a585a2e3f2dc.png">
+<meta property="og:image" content="http://i1.bvimg.com/596710/e787ecbcc1fe757d.png">
+<meta property="og:updated_time" content="2017-08-03T12:43:35.069Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="得到App产品体验报告">
+<meta name="twitter:description" content="写在前面：作为一个刚入门的学生，产品的有关思维还是十分稚嫩，许多想法也是不切实际的。但是，有输出有思考才有可能蜕变。这也是我第一次做产品体验报告，至于文章的内容，还是希望和大家一起多多交流分享。  (一)    产品概述(1)    体验环境1.    所用机型iPhone6 2.    机型系统iOS 10.3.3 3.    产品版本2.8.0 4.    体验时间2017.7.29—201">
+<meta name="twitter:image" content="http://i1.bvimg.com/596710/2b5afb130814da52.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/08/03/得到产品体验报告/"/>
+
+
+
+
+
+  <title>得到App产品体验报告 | Xujian's Blog</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+	
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Xujian's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Hello,word.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/03/得到产品体验报告/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xujian">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/upload/image/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xujian's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">得到App产品体验报告</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-03T19:48:23+08:00">
+                2017-08-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>写在前面：作为一个刚入门的学生，产品的有关思维还是十分稚嫩，许多想法也是不切实际的。但是，有输出有思考才有可能蜕变。这也是我第一次做产品体验报告，至于文章的内容，还是希望和大家一起多多交流分享。</p>
+</blockquote>
+<h1 id="一-产品概述"><a href="#一-产品概述" class="headerlink" title="(一)    产品概述"></a>(一)    产品概述</h1><h2 id="1-体验环境"><a href="#1-体验环境" class="headerlink" title="(1)    体验环境"></a>(1)    体验环境</h2><h3 id="1-所用机型"><a href="#1-所用机型" class="headerlink" title="1.    所用机型"></a>1.    所用机型</h3><p>iPhone6</p>
+<h3 id="2-机型系统"><a href="#2-机型系统" class="headerlink" title="2.    机型系统"></a>2.    机型系统</h3><p>iOS 10.3.3</p>
+<h3 id="3-产品版本"><a href="#3-产品版本" class="headerlink" title="3.    产品版本"></a>3.    产品版本</h3><p>2.8.0</p>
+<h3 id="4-体验时间"><a href="#4-体验时间" class="headerlink" title="4.    体验时间"></a>4.    体验时间</h3><p>2017.7.29—2017.8.3</p>
+<h2 id="2-产品简介说明"><a href="#2-产品简介说明" class="headerlink" title="(2)    产品简介说明"></a>(2)    产品简介说明</h2><p>得到App—罗辑思维出品，为你提供省时间的高效知识服务。提倡碎片化学习方式，让用户短时间内获得有效的知识。为你订制：《罗辑思维》第5季、大咖专栏、每天听本书、知识新闻随时听、有料干货。每天20分钟，在这里学知识、长见识、扩展认知，终身成长。<br>得到app的logo是由一个橙色的背景，中间加上两个白色的“得到”汉字。不同于蓝色的清爽，橙色更能吸引人的眼球；只有两个汉字加背景也显得很简洁大方。</p>
+<h2 id="3-产品定位"><a href="#3-产品定位" class="headerlink" title="(3)    产品定位"></a>(3)    产品定位</h2><p>碎片时间，终身学习</p>
+<h2 id="4-用户需求分析"><a href="#4-用户需求分析" class="headerlink" title="(4)    用户需求分析"></a>(4)    用户需求分析</h2><h3 id="1-用户特征描绘"><a href="#1-用户特征描绘" class="headerlink" title="1.    用户特征描绘"></a>1.    用户特征描绘</h3><p>18-24岁大学生及24-40岁中青年人，男性居多，多分布在一线城市，碎片化时间较多，希望通过某种方式增大自己的知识面，增强核心竞争力。单次使用时间不会太长，通常在半小时以内，每日使用的时间和次数频率较大。</p>
+<h3 id="2-目标用户的需求"><a href="#2-目标用户的需求" class="headerlink" title="2.    目标用户的需求"></a>2.    目标用户的需求</h3><p>这些用户都是渴望在寻找工作或在职场中不断的提升自己，充实自己，利用有限的时间得到最方便的解决方法。当前是互联网信息大爆炸的时代，很多信息良莠不齐，各种信息参杂在一起。想要从这么多的信息当中挑选出对自己有帮助且优质的信息不是一件简单的事情。我们这个社会将会涌现出越来越多的帮人们处理这些信息的工具，而知识也将成为一项消费品——即知识付费时代。针对目标用户的需求，需要一个更优的解决方案，需要一个跟好的产品。</p>
+<h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3.    解决方案"></a>3.    解决方案</h3><p>针对用户没有很好的途径对所需要的信息进行筛选，得到app通过“免费专区”、“大咖专栏”、“每天听本书“和“免费专区”这四个核心板块来解决这个问题。<br>“免费专区”包含“罗辑思维”和“李翔知识内参“两个内容：”“罗辑思维“为单节10分钟左右的音频，在互联网经济、创业创新、社会历史等领域都有老罗自己独特的见解。“李翔知识内参”为单节2分钟左右的高浓度知识音频，涵盖商业、科学、科技、心理、管理、个人、成长等各个领域。对于想要尽快了解多方面行业状况的那一部分用户，这个板块是非常值得参与的一个功能，而且这个板块不存在门槛，是全部免费的；<br>”大咖专栏“就相对来说对各行各业比较有针对性，而且也是这个app中门槛较高的一个模块，大部分专栏的订阅费为199/年，这里针对的用户是对专业知识的渴望较强，而且具有对新产品的好奇心和接受力较强，往往属于“第一个吃螃蟹”的那一类人；<br>“每天听本书”的口号是“集结最牛说书人为你说好书，跑步、晨起、睡前，每天半小时，一年收获36本好书干货“。这个板块主要是将每本书中的精华浓缩成20分钟左右的音频，针对的是那部分想迅速开阔自己的知识面又没有大量的时间去看整本书的用户群，这个板块也有想要的门槛，不过对于”大咖专栏”来说又低了一点，其中每本书的单价约为5元/本，如果购买整月（该月30本左右指定书籍，每日更新一本，已更新完毕的会全部显示在“已购”模块）为36元/月，如果按年购买（该年365本指定书籍，每日更新一本，已更新完毕的会全部显示在“已购”模块）为365元/年。</p>
+<h3 id="4-使用场景模拟"><a href="#4-使用场景模拟" class="headerlink" title="4.    使用场景模拟"></a>4.    使用场景模拟</h3><p>小徐是一名大三学生，每天从宿舍步行前往教学楼上课，上完课在从教学楼步行回宿舍。早上七点半吃完早餐，在前往教学楼的路上，打开手机，希望能在多学一些东西，增强自己的见识和竞争力，开始听专业人士对某本书的讲解总结，大约20分钟,关掉app，准备好课本开始上课。直到中午吃饭时间，可以听一会“李翔知识内参”等专栏的短时间音频，回宿宿午休，闹钟设置刚刚好，路上需要尽快赶到教室才不会迟到。上完课和室友一起去食堂吃饭，一起聊天。回到宿舍和室友一起打会儿游戏，完成一下课堂作业，睡前打开app，带上耳机，听“每天听本书”每日更新的音频，不到半小时，困了，睡觉。</p>
+<h2 id="5-市场状况现状和分析"><a href="#5-市场状况现状和分析" class="headerlink" title="(5)    市场状况现状和分析"></a>(5)    市场状况现状和分析</h2><h3 id="1-行业分析"><a href="#1-行业分析" class="headerlink" title="1.    行业分析"></a>1.    行业分析</h3><p><img src="http://i1.bvimg.com/596710/2b5afb130814da52.png" alt="1"></p>
+<p><img src="http://i1.bvimg.com/596710/705bbf1435d49fc3.png" alt="2"><br>移动互联网让垂直服务和个性化需求称为可能，加之以知乎为代表的在线知识型社区多年的运营沉淀，知识付费在知识共享、网生内容、社群电商以及移动音频、移动直播等风口产业交织的环境下营运而生。移动支付的普及，人们为知识付费的观念越来越普及，而且已有的知识付费项目运行数据良好，比如值乎、新玛拉雅FM、得到；付费激励优质内容的生产，也利于用户进行高效的信息筛选，这两个条件不断完善的交易市场和生态，轰然来袭的知识付费正在崛起。</p>
+<h3 id="2-市场数据"><a href="#2-市场数据" class="headerlink" title="2.    市场数据"></a>2.    市场数据</h3><p><img src="http://i1.bvimg.com/596710/e85571318dc57663.png" alt="3"><br>其中喜马拉雅FM作为移动音频领域的领军者，成立时间较早，拥有海量的用户流量优势；而知乎在作为知识分享社区本来就拥有很大的用户量；反过来看得到，作为2015年11月才上线的独立知识付费产品，虽然在用户量上不及前面两个平台，但在短时间也聚集了大量用户。<br>（数据来源：易观）</p>
+<h3 id="3-在AppStore上的数据"><a href="#3-在AppStore上的数据" class="headerlink" title="3.    在AppStore上的数据"></a>3.    在AppStore上的数据</h3><p>分析时间段为2017年7月3日-2017年8月1日，这里拿喜马拉雅FM的数据作为对比。<br><strong>得到app</strong><br><img src="http://i1.bvimg.com/596710/0cd068ac9cbc6417.png" alt="4"><br>畅销排名<br>在图书类别：<br>在1-2之间浮动，保持一条相对平滑的线段<br>在所有类别：<br>最低排在第70位、最高排在第30位，呈相对较大波动<br><img src="http://i1.bvimg.com/596710/85fb07beeeef0ef6.png" alt="5"><br>免费排名<br>在图书类别：<br>在11-15之间浮动，保持一条相对平滑的线段<br>在所有类别：<br>最低排在435位、最高排在259位，呈相对较大的波动<br><strong>喜马拉雅FM</strong><br><img src="http://i1.bvimg.com/596710/e6cd112fa985ff87.png" alt="6"><br>畅销排名<br>在图书类别：<br>在近一个月基本保持在3名，只有在7月27日为第4名<br>在所有类别：<br>最低排在第96位、最高排在第61位，相对“得到“的曲线波动较小<br><img src="http://i1.bvimg.com/596710/00f47155ac291f52.png" alt="7"><br>免费排名<br>在图书类别：<br>在近一个月基本保持在第1名，只有在7月23日、7月27日为第2名<br>在所有类别：<br>最低排在78位、最高排在59位，相对“得到“的曲线波动较小</p>
+<p>从数据下载量可以看出喜马拉雅FM作为老牌的移动音频app有大量用户的基础，比起得到有很大的优势，而且喜马拉雅FM主要内容为休闲娱乐板块，门槛较低，大部分内容为免费的，受众较广；而得到作为一个年轻的产品，主打知识订阅，两大主要板块均要收费，导致受众相比喜马拉雅FM较小，但在上线的短时间也拥有了大量的用户，有很大的上升空间。<br>而且这个行业发展前景较好，市场广阔，需求也在慢慢扩大，有不错的扩展机会。<br>（数据来源：ASO100）</p>
+<h1 id="二-产品分析"><a href="#二-产品分析" class="headerlink" title="(二)    产品分析"></a>(二)    产品分析</h1><h2 id="1-产品结构图"><a href="#1-产品结构图" class="headerlink" title="(1)    产品结构图"></a>(1)    产品结构图</h2><p><img src="http://i1.bvimg.com/596710/39bc0fe393ed0467.png" alt="8"><br>特色功能：专栏直播，免费专区，每天听本书，专栏订阅，精品课。<br>功能上，主页除了得到app的核心三大模块，还加上了猜你喜欢等推荐内容；在今日学习栏也有着类似的猜你喜欢板块，但功能还较少，建议完善该栏的各项功能；为了更快的边现，主页还加上了实物商城这类电子商务板块和直播板块，这些内容显示着得到app新的尝试与业务扩展方向。</p>
+<h2 id="2-产品业务逻辑流程图"><a href="#2-产品业务逻辑流程图" class="headerlink" title="(2)    产品业务逻辑流程图"></a>(2)    产品业务逻辑流程图</h2><p><img src="http://i1.bvimg.com/596710/cc3bb95745a78c5e.png" alt="9"><br>从产品业务逻辑图看，用户在使用过程中产生的动作较少，产品的定位是利用碎片化时间随时随地的学习，如果用户发现什么喜欢的内容，可以直接点开收听而不需要自己去做过多的筛选。在用户动作上，也就较为符合用户省时省心的心理。所以，从产品业务逻辑流程图上看，较为符合产品的定位和特色所在。</p>
+<h2 id="3-功能体验分析"><a href="#3-功能体验分析" class="headerlink" title="(3)    功能体验分析"></a>(3)    功能体验分析</h2><h3 id="1-首页排版"><a href="#1-首页排版" class="headerlink" title="1.    首页排版"></a>1.    首页排版</h3><p><img src="http://i1.bvimg.com/596710/db09bc4148728010.png" alt="10"><br>得到的客户端app与其他知识音频软件有一些区别，在首页，各个模块的排列是竖向排列，想要知道所有的功能需要划到最底部。虽然在横向菜单加入了电子书、每天听本书、商城、系列、全部的快捷通道，但如果想收听免费专区的罗辑思维、专栏订阅、精品课、猜你喜欢还是需要向下多次滑动界面。<br><strong>优化建议</strong>：把横向菜单的快捷通道改成app的核心功能模块，一些非核心功能模块可以隐藏到下一级菜单。</p>
+<h3 id="2-直播板块"><a href="#2-直播板块" class="headerlink" title="2.    直播板块"></a>2.    直播板块</h3><p>在首页占了一块核心位置的得到直播间板块，邀请了专栏主理人来讲解专门的知识。但内容相对薄弱，每次只有一场直播可以收看。<br><strong>优化建议</strong>：如果app想在内部插入直播形式的知识分享，应该建立好一个直播体系，多邀请一些各个平台的大V来参与，也将直播场次和每次直播数量增大。</p>
+<h3 id="3-社交板块"><a href="#3-社交板块" class="headerlink" title="3.    社交板块"></a>3.    社交板块</h3><p><img src="http://i1.bvimg.com/596710/381d278431833c38.png" alt="11"><br>在“我的”栏里面，学习小组和消息中心这两个功能在这个产品没有建立好社交这一块的前提来说显得很鸡肋，因为你根本找不到其他的用户，就谈不上建立学习小组和互相发消息了。<br><strong>优化建议</strong>：在这两个功能里添加推荐好友、邀请好友之类的选项，类似朋友圈的发动态功能也可以用来达到增加用户粘性的目的。</p>
+<h4 id="4-帮助工具"><a href="#4-帮助工具" class="headerlink" title="4.    帮助工具"></a>4.    帮助工具</h4><p>而设置里面的“帮助中心”是一个对于新用户来说很有帮助的功能，解决用户在使用软件中遇到的各种问题，但这个功能隐藏的太深，对于一般人来说想要发现这个功能是要花一番功夫的。<br><strong>优化建议</strong>：希望把该功能改进成与设置同级显示。</p>
+<h3 id="5-支付方式"><a href="#5-支付方式" class="headerlink" title="5. 支付方式"></a>5. 支付方式</h3><p><img src="http://i1.bvimg.com/596710/5c34a585a2e3f2dc.png" alt="12"><br>在商城方面，得到app也试图通过电子商务来让产品更快的变现，但在支付方式上只能用微信/支付宝支付，而购买电子书和订阅专栏都是要用过app账户余额来购买，在同一个app存在两种不同的支付方式，而且app账户余额里的资金不能提现，在充值余额是只能选择固定的数额。<br><strong>优化建议</strong>：首先希望app账户余额内的资金可以自由转换回银行卡/支付宝/微信，其次在充值数额可以加入任意金额的选项，在AppStore里有很多用户都强烈要求这一点能得到改善。最后如果要在电子商务方向走的更远，那么可以优化好app本身的支付方式，让app内的商城支持app账户余额支付。</p>
+<h3 id="6-视觉模式"><a href="#6-视觉模式" class="headerlink" title="6.视觉模式"></a>6.视觉模式</h3><p>不具备夜间模式，对于现在越来越多的“夜猫子”现象，用户在晚上用手机打开并使用app的频率也越来越多。<br><strong>优化建议</strong>：设计开发出夜间模式。</p>
+<h1 id="三-竞品分析"><a href="#三-竞品分析" class="headerlink" title="(三)    竞品分析"></a>(三)    竞品分析</h1><p>主要竞品为：喜马拉雅FM，值乎和知乎LIVE</p>
+<h2 id="1-就整体格局来说"><a href="#1-就整体格局来说" class="headerlink" title="(1)    就整体格局来说"></a>(1)    就整体格局来说</h2><p><img src="http://i1.bvimg.com/596710/e787ecbcc1fe757d.png" alt="13"><br>其中:<br>喜马拉雅FM在2012年成立，2016年在精准广告、内容付费、智能硬件上实现大规模营收，上线付费音频专区，通过长期运营积累的海量用户在免费的基础上，推出付费精品专区；</p>
+<p>值乎和知乎LIVE也是依托于知乎平台的大量人气推出的付费板块，在2016年上半年推出，知乎平台用户多为告知人群且收入较高的优质用户，在较好的平台优势的基础上也在短时间吸引了大量用户；</p>
+<p>得到app在2015年11月上线，主要是依托“罗辑思维“这款知识型脱口秀视频汇集的人气导流到app中，建立付费专栏、付费音频&amp;电子书、免费内容结合的模式。以碎片化时间终身学习作为口号吸引用户使用。</p>
+<h2 id="2-就使用用户来说"><a href="#2-就使用用户来说" class="headerlink" title="(2)    就使用用户来说"></a>(2)    就使用用户来说</h2><p>各个平台的定位和背景不同，也导致其用户群体的差异性。<br>喜马拉雅FM更偏重于休闲娱乐，男女用户比例为3：2，主要用户为30-49岁人群，除北京用户量较多外，其余用户多分布于二三线城市；<br>值乎和知乎LIVE更偏重专业知识内容，用户多为高知高薪人士，男性用户较多，主要用户为20-39岁人群，在一线城市和海外有较为突出的用户分布；<br>得到主要内容是付费精品、电子书、音频和专栏订阅， 男性用户较多，30岁以上用户占比较高，多分布于一线城市。</p>
+<h2 id="3-就产品性能来说"><a href="#3-就产品性能来说" class="headerlink" title="(3)    就产品性能来说"></a>(3)    就产品性能来说</h2><p>在产品内存方面：都有几十MB，占地不小。尤其是现在大家手机里App都不少，硬件升级赶不上速度，则会使内存也成为影响用户选择因素。得到48.1MB，喜马拉雅FM97.5MB，知乎103MB，这方面得到做的比较好。<br>在功能方面，得到在核心功能上较为完善，但在扩展功能，包括商城、社交等均有不足。</p>
+<h2 id="4-竞品分析总结"><a href="#4-竞品分析总结" class="headerlink" title="(4)    竞品分析总结"></a>(4)    竞品分析总结</h2><p>在互联网知识付费时代第一阵营中，得到在其他两个的强大的流量导入的压迫下，仍能凭借自身优势跻身前三，实属不易。<br>三大客户端均有自己的优势：<br>喜马拉雅FM凭借自身长时间的运营和推广，有很大的用户基础；<br>值乎和知乎LIVE依托与知乎平台的大量优质用户也得到很快的发展；<br>得到的优势也很明显，在主推的付费栏目上加上以“罗辑思维“这中有海量用户的免费栏目吸引用户，核心功能的”每天听本书“也是得到率先推出的优质栏目。<br>在核心功能上，几大客户端都有各自特色，但各家都在尝试扩大产品功能，功能和内容的同质化日渐显露，而在性能上，包括内存、稳定性，差异不大。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><strong>得到还是一个年轻的产品，相信得到app在保持产品的稳定性与有用性的前提下，探索更多的可用性方向，变得更加好用，有趣，成为一个更加成熟的社区。</strong></p>
+<blockquote>
+<p>数据来源：百度指数，易观、ASO100</p>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/产品/" rel="tag"># 产品</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/02/word-4/" rel="next" title="word进阶之路(4)">
+                <i class="fa fa-chevron-left"></i> word进阶之路(4)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/upload/image/avatar.png"
+               alt="Xujian" />
+          <p class="site-author-name" itemprop="name">Xujian</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="/images/wechat.jpg" target="_blank" title="Wechat">
+                  
+                    <i class="fa fa-fw fa-wechat"></i>
+                  
+                  Wechat
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/5318829104/home?wvr=5" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/xu-jian-47-58" target="_blank" title="Zhihu">
+                  
+                    <i class="fa fa-fw fa-zhihu"></i>
+                  
+                  Zhihu
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+<br>
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86  
+src="//music.163.com/outchain/player?type=2&id=26401828&auto=0&height=66"></iframe>
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一-产品概述"><span class="nav-number">1.</span> <span class="nav-text">(一)    产品概述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-体验环境"><span class="nav-number">1.1.</span> <span class="nav-text">(1)    体验环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-所用机型"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.    所用机型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-机型系统"><span class="nav-number">1.1.2.</span> <span class="nav-text">2.    机型系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-产品版本"><span class="nav-number">1.1.3.</span> <span class="nav-text">3.    产品版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-体验时间"><span class="nav-number">1.1.4.</span> <span class="nav-text">4.    体验时间</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-产品简介说明"><span class="nav-number">1.2.</span> <span class="nav-text">(2)    产品简介说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-产品定位"><span class="nav-number">1.3.</span> <span class="nav-text">(3)    产品定位</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-用户需求分析"><span class="nav-number">1.4.</span> <span class="nav-text">(4)    用户需求分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-用户特征描绘"><span class="nav-number">1.4.1.</span> <span class="nav-text">1.    用户特征描绘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-目标用户的需求"><span class="nav-number">1.4.2.</span> <span class="nav-text">2.    目标用户的需求</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-解决方案"><span class="nav-number">1.4.3.</span> <span class="nav-text">3.    解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-使用场景模拟"><span class="nav-number">1.4.4.</span> <span class="nav-text">4.    使用场景模拟</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-市场状况现状和分析"><span class="nav-number">1.5.</span> <span class="nav-text">(5)    市场状况现状和分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-行业分析"><span class="nav-number">1.5.1.</span> <span class="nav-text">1.    行业分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-市场数据"><span class="nav-number">1.5.2.</span> <span class="nav-text">2.    市场数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-在AppStore上的数据"><span class="nav-number">1.5.3.</span> <span class="nav-text">3.    在AppStore上的数据</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二-产品分析"><span class="nav-number">2.</span> <span class="nav-text">(二)    产品分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-产品结构图"><span class="nav-number">2.1.</span> <span class="nav-text">(1)    产品结构图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-产品业务逻辑流程图"><span class="nav-number">2.2.</span> <span class="nav-text">(2)    产品业务逻辑流程图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-功能体验分析"><span class="nav-number">2.3.</span> <span class="nav-text">(3)    功能体验分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-首页排版"><span class="nav-number">2.3.1.</span> <span class="nav-text">1.    首页排版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-直播板块"><span class="nav-number">2.3.2.</span> <span class="nav-text">2.    直播板块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-社交板块"><span class="nav-number">2.3.3.</span> <span class="nav-text">3.    社交板块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-帮助工具"><span class="nav-number">2.3.3.1.</span> <span class="nav-text">4.    帮助工具</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-支付方式"><span class="nav-number">2.3.4.</span> <span class="nav-text">5. 支付方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-视觉模式"><span class="nav-number">2.3.5.</span> <span class="nav-text">6.视觉模式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三-竞品分析"><span class="nav-number">3.</span> <span class="nav-text">(三)    竞品分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-就整体格局来说"><span class="nav-number">3.1.</span> <span class="nav-text">(1)    就整体格局来说</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-就使用用户来说"><span class="nav-number">3.2.</span> <span class="nav-text">(2)    就使用用户来说</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-就产品性能来说"><span class="nav-number">3.3.</span> <span class="nav-text">(3)    就产品性能来说</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-竞品分析总结"><span class="nav-number">3.4.</span> <span class="nav-text">(4)    竞品分析总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-number">4.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xujian</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+   
+    <script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script> 
+  
+
+</body>
+</html>
